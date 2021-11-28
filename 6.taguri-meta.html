@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta tags</title>
+</head>
+<body>
+  <p>Metatags specifica metadata si stau in tagurile head din fisierul HTML. Elementele meta pot folosi perechi de nume/valoare, pt a descrie proprietatile documentului HTML: autor, data, lista de cuvinte cheie.
+    Tagul <strong>meta</strong> e self enclosed, aduce info suplimentare.
+  </p>
+  <ul>
+    <li><h4>Taguri pt specificitate</h4>  - specifica cuvinte cheie, relavnte pt documemnt. Cuvinele sunt folosit ede motoare de cautare, pt indexarea paginii - faciliteaza cautarea</li>
+      <ul>
+        <li><code>&lt;meta name="keywords" content="HTML, Meta Tags, Metadata" /&gt;</code></li>
+      </ul>
+      <li><h4>Taguri pentru descrierea documentului</h4> - ofera o descriere scurta a documentului. POate fi filosit de motoarele de cautare pt indexare </li>
+        <ul>
+          <li><code>&lt;meta name="keywords" content="HTML, Meta Tags, Metadata" /&gt; <br>
+          &lt;meta name="description" content="Learning about Meta Tags." /&gt;</code></li>
+        </ul>
+      <li><h4>Taguri pt info referitoare la rvizia doc</h4> - cand a fost revizuit ultima data documentul? Pot fi folosite la refresh</li>
+      <ul>
+        <li><code>&lt;meta name="keywords" content="HTML, Meta Tags, Metadata" /&gt; <br>
+        &lt;meta name="description" content="Learning about Meta Tags." /&gt; <br>
+        &lt;meta name="revised" content="MDN, 30/06/2021" /&gt;</code></li>
+      </ul>
+    <li><h4>Refresh la document</h4>- Pt ca pagina sa-si dea refresh dupa 5secunde:</li>
+    <ul>
+      <li><code>&lt;meta name="keywords" content="HTML, Meta Tags, Metadata" /&gt; <br>
+      &lt;meta name="description" content="Learning about Meta Tags." /&gt; <br>
+      &lt;meta name="revised" content="MDN, 30/06/2021" /&gt; <br>
+      &lt;meta http-equiv = "refresh" content = "5" /&gt;
+    </code></li>
+    </ul>
+    <li><h4>Redirectionarea paginii</h4> redirectionare catre alta pagina dupa 5 secunde</li>
+    <ul><li>
+      <code>&lt;meta http-equiv = "refresh" content = "5; url = http://google.com" /&gt;</code></li></ul>
+     
+      <li><h4>Setare cookies</h4> Cookies - date stocate in fisiere text in computer, si sunt schimbate intre browser si serverul web. In exempu, daca nu este inclusa data expirarii - cookie sunt considerate cookie de tip  session si vor vi sterse cand userul paraseste browserul</li>
+      <ul><li><code>&lt;meta http-equiv = "cookie" content = "userid = adeer; expires = Wednesday, 08-Aug-15 23:59:59 GMT;" /&gt;</code></li></ul>
+
+      <li><h4>Setare nume de autor</h4></li>
+      <ul><li><code>&lt;meta name = "author" content = "Adina" /&gt;</code></li></ul>
+      <li><h4>Specificare tipuri de caractere</h4> By default, browserele web folosesc procesul de codare ISO-8859-1(Latin1). Exemplu de codare UTF-8</li>
+      <ul><li><code>&lt;meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8" /&gt;</code></li></ul>
+  </ul>
+</body>
+</html>
