@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabele</title>
+</head>
+<body>
+  <p>Tabelele in HTML sunt create cu tagul <strong>table</strong> care contine 2 taguri: <strong>tr</strong> - table row -> creaza randuri in tabel si <strong>td</strong> - table data -> creaza celulele din tabel</p>
+  <h5>Tabel cu 1 bordura </h5>
+  <code>
+    &lt;table border="1"&gt; <br>
+      &nbsp;&lt;tr&gt; <br>
+        &nbsp; &lt;td>Row 1, Column 1&lt;/td&gt; <br>
+        &nbsp; &lt;td>Row 1, Column 2&lt;/td&gt; <br>
+      &nbsp;&lt;/tr&gt; <br> <br>
+    
+      &nbsp;&lt;tr&gt; <br>
+        &nbsp; &lt;td>Row 2, Column 1&lt/td&gt; <br>
+        &nbsp; &lt;td&gt;Row 2, Column 2&lt/td&gt; <br>
+      &nbsp;&lt;/tr&gt; <br>
+    &lt;/table&gt;
+    <table border="1">
+      <tr>
+        <td>Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+      </tr>
+    
+      <tr>
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+      </tr>
+    </table>
+  </code>
+
+  <h5>Titluri in tabel - table hradings</h5>
+  <p>Tagul <strong>th</strong> va fi pus deasupra si va inlocuiu tagul <strong>td</strong></p>
+  <code>
+    &lt;table border="1"&gt; <br>
+      &lt;tr> <br>
+        &lt;th>Name&lt;/th&gt; <br>
+        &lt;th>Salary&lt;/th&gt; <br>
+      &lt;/tr&gt; <br> <br>
+      &lt;tr&gt; <br>
+        &lt;td&gt;John Doe&lt;/td&gt; <br>
+        &lt;td&gt;3000$&lt;/td&gt; <br>
+      &lt;/tr&gt; <br> <br>
+    
+      &lt;tr&gt; <br>
+        &lt;td&gt;Jane Doe&lt;/td&gt; <br>
+        &lt;td>3000$&lt;/td&gt; <br>
+      &lt;/tr&gt; <br>
+    &lt;/table&gt;
+  </code>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th>Salary</th>
+    </tr>
+    <tr>
+      <td>John Doe</td>
+      <td>3000$</td>
+    </tr>
+  
+    <tr>
+      <td>Jane Doe</td>
+      <td>3000$</td>
+    </tr>
+  </table>
+
+  <h5>Spatiere intre celule</h5>
+  <p>Atribuemtele <em>cellpadding</em>si <em>cellspacing</em></p>
+  <ul>
+    <li>cellpadding - distanta dintre content si bordura</li>
+    <li>cellspacing - distanta intre celule</li>
+  </ul>
+
+  <code>
+    &lt;table border="1" cellpadding="5" cellspacing="5"&gt; <br>
+      &lt;tr&gt; <br>
+        &lt;th>Name&lt;/th&gt; <br>
+        &lt;th&gt;Salary&lt;/th&gt; <br>
+      &lt;/tr&gt; <br> <br>
+      &lt;tr&gt; <br>
+        &lt;td&gt;John Doe&lt;/td&gt; <br>
+        &lt;td&gt;3000&lt;/td&gt; <br> 
+      &lt;/tr&gt; <br> <br>
+      &lt;tr&gt; <br>
+        &lt;td&gt;Jane Doe&lt;/td&gt; <br>
+        &lt;td&gt;3000&lt;/td&gt; <br>
+      &lt;/tr&gt; <br>
+    &lt;/table&gt;
+  </code>
+  <table border="1" cellpadding="5" cellspacing="5">
+    <tr>
+      <th>Name</th>
+      <th>Salary</th>
+    </tr>
+    <tr>
+      <td>John Doe</td>
+      <td>3000</td>
+    </tr>
+    <tr>
+      <td>Jane Doe</td>
+      <td>3000</td>
+    </tr>
+  </table>
+
+  <h5>Atributele colspan si rowspan</h5>
+  <ul>
+    <li>colspan - folosit pt extinderea pe mai multe coloane</li>
+    <li>rowspan - folosit pe extinderea pe mai multe randuri</li>
+  </ul>
+
+  <code>
+    &lt;table border="1"> <br>
+      &lt;tr> <br>
+        &lt;th>Column 1&lt;/th> <br>
+        &lt;th>Column 2&lt;/th> <br>
+        &lt;th>Column 3&lt;/th>  <br>
+      &lt;/tr> <br> <br>
+      &lt;tr> <br>
+        &lt;td rowspan="2">Row 1 Cell 1&lt;/td> <br>
+        &lt;td>Row 1 Cell 2&lt;/td> <br>
+        &lt;td>Row 1 Cell 3&lt;/td> <br>
+      &lt;/tr> <br> <br>
+      &lt;tr> <br>
+        &lt;td>Row 2 Cell 2&lt;/td> <br>
+        &lt;td>Row 2 Cell 3&lt;/td> <br>
+      &lt;/tr> <br><br>
+      &lt;tr> <br>
+        &lt;td colspan="3">Row 3 Cell 1&lt;/td> <br>
+      &lt;/tr> 
+  </code>
+  <table border="1">
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+      <th>Column 3</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Row 1 Cell 1</td>
+      <td>Row 1 Cell 2</td>
+      <td>Row 1 Cell 3</td>
+    </tr>
+    <tr>
+      <td>Row 2 Cell 2</td>
+      <td>Row 2 Cell 3</td>
+    </tr>
+    <tr>
+      <td colspan="3">Row 3 Cell 1</td>
+    </tr>
+</table>
+    <h5>Latimea si inaltimea unui tabel</h5>
+    <p>date de atributele <strong>width</strong> si <strong>height</strong></p>
+    <code>
+      &lt;table border="1" width="400" height="150"><br>
+        &lt;tr><br>
+          &lt;td>Row 1, Column 1&lt;/td> <br>
+          &lt;td>Row 1, Column 2&lt;/td> <br>
+        &lt;/tr> <br><br>
+      
+        &lt;tr> <br>
+          &lt;td>Row 2, Column 1&lt;/td> <br>
+          &lt;td>Row 2, Column 2&lt;/td> <br>
+        &lt;/tr> <br>
+      &lt;/table>
+    </code>
+
+    <table border="1" width="400" height="150">
+      <tr>
+        <td>Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+      </tr>
+    
+      <tr>
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+      </tr>
+    </table>
+
+    <h5>Descriere tabel - tagul caption invechit</h5>
+    <h5>Header, body & footer</h5>
+    <ul>
+      <li><strong>thead</strong> - creaza header separat</li>
+      <li><strong>tbody</strong> - indica corpul tabelului</li>
+      <li><strong>tfoot</strong> - creaza footer separat</li>
+    </ul>
+
+    <code>
+      &lt;table border="1" width="100%"> <br>
+        &lt;thead> <br>
+          &lt;tr> <br>
+            &lt;td colspan="4">This is the head of the table&lt;/td> <br>
+          &lt;/tr> <br>
+        &lt;/thead> <br> <br>
+      
+        &lt;tfoot> <br>
+          &lt;tr> <br>
+            &lt;td colspan="4">This is the foot of the table&lt;/td> <br>
+          &lt;/tr> <br>
+        &lt;/tfoot> <br> <br>
+      
+        &lt;tbody> <br>
+          &lt;tr> <br>
+            &lt;td>Cell 1&lt;/td> <br>
+            &lt;td>Cell 2&lt;/td> <br>
+            &lt;td>Cell 3&lt;/td> <br>
+            &lt;td>Cell 4&lt;/td> <br>
+          &lt;/tr> <br>
+        &lt;/tbody>
+      
+      &lt;/table>
+    </code>
+    <table border="1" width="100%">
+      <thead>
+        <tr>
+          <td colspan="4">This is the head of the table</td>
+        </tr>
+      </thead>
+    
+      <tfoot>
+        <tr>
+          <td colspan="4">This is the foot of the table</td>
+        </tr>
+      </tfoot>
+    
+      <tbody>
+        <tr>
+          <td>Cell 1</td>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+          <td>Cell 4</td>
+        </tr>
+      </tbody>
+    
+    </table>
+</body>
+</html>
