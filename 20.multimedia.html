@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia</title>
+</head>
+<body>
+  <p>Cea mai rapida metoda de a adauga muzica, video in pagina este cu ajutorul tagului <strong>embed</strong></p>
+  <code>
+    &lt;embed src="/html/yourfile.mid" width="100%" height="60"> <br>
+    &lt;noembed>&lt;img src="yourimage.gif" alt="Alternative Media">&lt;/noembed> <br>
+    &lt;/embed>
+  </code>
+  <embed src="/html/yourfile.mid" width="100%" height="60">
+  <noembed><img src="yourimage.gif" alt="Alternative Media"></noembed>
+  </embed>
+  <h5>Lista de atribute pentru embed:</h5>
+  <ul>
+    <li>align - invechit</li>
+    <li>autostart - invechit</li>
+    <li>loop - sunetul va rula continuu</li>
+    <li>playcount - de cate ori va rula un sunet</li>
+    <li>hidden - specifica daca obiectul multimedia va aparea in pagina</li>
+    <li>width - latimea obiectului, in pixeli</li>
+    <li>height - inaltimea obiectului, in pixeli</li>
+    <li>name - nume de referinta pt obiect</li>
+    <li>src - URL-ul obiectului</li>
+    <li>volume - conrollere de volum</li>
+  </ul>
+
+  <h5>HTML Object - tag</h5>
+  <p>Folosit pt includrea obj in pagina</p>
+  <p>Embeded docuemnt html</p>
+  <code>
+    &lt;object data="data/test.html" type="text/html" width="300" height="200"> <br>
+      alt : &lt;a href="data/test.html">test.htm&lt;/a> <br>
+    &lt;/object>
+  </code>
+  
+  <p>PDF embeded in HTML</p>
+  <code>
+    &lt;object data="data/test.pdf" type="application/pdf" width="300" height="200"> <br>
+      alt : &lt;a href="data/test.pdf">test.htm&lt;/a> <br>
+    &lt;/object>
+  </code>
+</body>
+</html>
