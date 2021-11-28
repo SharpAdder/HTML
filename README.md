@@ -7,7 +7,7 @@ HTML sandbox and recap basic concepts
 * [5.pharse tags/ taguri de parsare](https://github.com/SharpAdder/HTML/blob/main/5.pharse-tags.html)
 * [6.meta-tags](https://github.com/SharpAdder/HTML/blob/main/6.taguri-meta.html)
 * [7.imagini](https://github.com/SharpAdder/HTML/blob/main/7.imagini.html)
-* tabele
+* [8.tabele HTML](https://github.com/SharpAdder/HTML/blob/main/8.tabele.html)
 * liste
 * linkuri pe text
 * linkuri pe imagini
