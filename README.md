@@ -1,6 +1,6 @@
 ##  HTML
 HTML sandbox and recap basic concepts
-* [basic tags/ taguri imp](https://github.com/SharpAdder/HTML/blob/main/basic-tags.html)
+* [1.basic tags/ taguri imp](https://github.com/SharpAdder/HTML/blob/main/1.basic-tags.html)
 * [HTML elements/ elemente HTML](https://github.com/SharpAdder/HTML/blob/main/elemente.html)
 * [atribute HTML](https://github.com/SharpAdder/HTML/blob/main/atribute.html)
 * formatarea
