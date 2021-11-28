@@ -19,7 +19,7 @@ HTML sandbox and recap basic concepts
 * culori
 * fonturi
 * formulare
-* multimedia embeded
+* [20.multimedia embed](https://github.com/SharpAdder/HTML/blob/main/20.multimedia.html)
 * marquess
 * header
 * style sheets
