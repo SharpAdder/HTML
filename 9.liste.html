@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liste</title>
+</head>
+<body>
+  <h4>Tipuri de liste:</h4>
+  <ul>
+    <li>Neordonate -> <strong>ul</strong></li>
+    <li>Ordonate -> <strong>ol</strong></li>
+    <li>Definitie -> <strong>dl</strong></li>
+  </ul>
+
+  <h5>Liste Ordonate:</h5>
+  <p>Atributul <strong>type</strong> pentru liste ordonate:</p>
+  <code>&lt;ol type="1">&lt;/ol></code>
+  <p>Atributul <strong>start</strong> arata de unde se porneste numararrea</p>
+  <code>&lt;ol type="1" start="4"></code>
+  <ul>
+    <li>type = "1" -> numere arabe</li>
+    <li>type = "I" -> numere romane: III</li>
+    <li>type = "i" -> numere romane: iii</li>
+    <li>type = "A" -> litere mari: A,B,C..</li>
+    <li>type = "b" -> litere mici: a,b,c..</li>
+  </ul>
+  <code>
+    &lt;ol type = "I" start = "2"> <br>
+      &lt;li>HTML&lt;/li> <br>
+      &lt;li>CSS&lt;/li> <br>
+      &lt;li>JS&lt;/li> <br>
+    &lt;/ol>
+  </code>
+  <ol type = "I" start = "2">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+  </ol>
+
+  <h5>Liste neordonate:</h5>
+  <p>Atributul <strong>type</strong> in lista neordonata arata de ce fel este bullet pont: square, disc, circle</p>
+  <code>
+    &lt;ul type="square"> <br>
+      &lt;li>HTML&lt;/li> <br>
+      &lt;li>CSS&lt;/li> <br>
+      &lt;li>JS&lt;/li> <br>
+    &lt;/ul>
+  </code>
+  <ul type="square">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+  </ul>
+
+  <h5>Liste de tip definitii:</h5>
+  <ul>
+    <li><strong><code>&lt;dl></code></strong> -> inceputul listei (definition list)</li>
+    <li><strong><code>&lt;dt></code></strong> -> termenul de definit (definition term)</li>
+    <li><strong><code>&lt;dd></code></strong> -> definitia termenului (definition)</li>
+    <li><strong><code>&lt;/dl></code></strong> -> sfarsiyul listei (end of list)</li>
+  </ul>
+
+  <code>
+    &lt;dl> <br>
+      &lt;dt>&lt;b>HTML&lt;/b>&lt;/dt> <br>
+      &lt;dd>This stands for Hyper Text Markup Language&lt;/dd> <br>
+      &lt;dt>&lt;b>HTTP&lt;/b>&lt;/dt> <br>
+      &lt;dd>This stands for Hyper Text Transfer Protocol&lt;/dd> <br>
+    &lt;/dl>
+  </code>
+  <dl>
+    <dt><b>HTML</b></dt>
+    <dd>This stands for Hyper Text Markup Language</dd>
+    <dt><b>HTTP</b></dt>
+    <dd>This stands for Hyper Text Transfer Protocol</dd>
+  </dl>
+</body>
+</html>
