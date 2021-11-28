@@ -8,7 +8,7 @@ HTML sandbox and recap basic concepts
 * [6.meta-tags](https://github.com/SharpAdder/HTML/blob/main/6.taguri-meta.html)
 * [7.imagini](https://github.com/SharpAdder/HTML/blob/main/7.imagini.html)
 * [8.tabele HTML](https://github.com/SharpAdder/HTML/blob/main/8.tabele.html)
-* liste
+* [9.liste HTML](https://github.com/SharpAdder/HTML/blob/main/9.liste.html)
 * linkuri pe text
 * linkuri pe imagini
 * linkuri pe email
