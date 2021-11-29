@@ -20,7 +20,7 @@ HTML sandbox and recap basic concepts
 * fonturi
 * formulare
 * [20.multimedia embed](https://github.com/SharpAdder/HTML/blob/main/20.multimedia.html)
-* marquess
+* [21.marquees](https://github.com/SharpAdder/HTML/blob/main/21.marquees.html)
 * header
 * style sheets
 * Js
